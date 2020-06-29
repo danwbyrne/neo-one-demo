@@ -7,8 +7,10 @@ See https://github.com/neo-one-suite/neo-one/pull/2071 for more information abou
 ```
 yarn install
 yarn neo-one compile
-
+yarn neo-one compile --avm --debug
 ```
+
+check the `neo-one/compiled` folder for output at each compile step.
 
 ### Functionality
 You can change the output format using various flags. By default the compiler will output the `json` format contract/abi.
